@@ -1,0 +1,47 @@
+.header{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.app-logo{
+    width: 80px;
+    height: 60px;
+    padding:5px
+}
+
+.nav-bar{
+    display:flex;
+    margin-right: 10px;
+    li{
+        padding:5px;
+        list-style-type: none;
+    }
+}
+
+.res-card{
+    background-color: #f8f9fa;
+    
+    width: 230px;
+    margin: 8px 8px 8px 0;
+    padding: 5px;
+    
+
+    img{
+        width: 229px;
+    height: 180px;
+    }
+}
+
+.res-card:hover{
+    border: 1px solid;
+
+}
+
+.app-body{
+    margin: 5px 5px 5px 0px;
+}
+
+.restaurant-cards-list{
+    display: flex;
+    flex-wrap: wrap;
+}
